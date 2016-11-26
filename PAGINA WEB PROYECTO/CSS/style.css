@@ -1,0 +1,106 @@
+/*font-family: 'Slabo 27px', serif;
+font-family: 'Cantarell', sans-serif;
+*/
+
+#contenidos{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+	background: yellow;
+	
+}
+
+/*ETIQUETAS*/
+body{
+	background-image: url(../img/fondo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+ 
+
+ h1{
+font-family: 'Slabo 27px', serif;
+color: white;
+margin-left: 10px;
+font-size: 60px;
+text-align: center;
+
+ }
+
+ h2{
+font-family: 'Cantarell', sans-serif;
+color: white;
+margin-left: 10px;
+font-size: 20px;
+text-align: left;
+}
+
+header{
+	width: 1000px;
+	height: 120px;
+	background: rgba(255, 255, 255, 0.5);
+}
+
+nav{
+width: 1000px;
+height: 40px;
+background: orange;
+border-radius: 5px;
+}
+
+ul{
+	margin: auto;
+	padding-top: 4px;
+}
+
+li{
+	float: left;
+	list-style-type: none;
+	padding: 5px;
+	background: white;
+	margin: 3px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px white inset;
+}
+section{
+width: 700px;
+background: white;
+height: 600px;
+float: left;
+
+}
+aside{
+	width: 280px;
+	background: gray;
+	height: 600px;
+	float: left;
+	margin-left: 20px;
+}
+
+footer{
+	width: 1000px;
+	height: 30px;
+	background: maroon;
+float: left;
+margin-top:20px;
+}
+
+
+
+
+
+
+
+
+/*CLASES*/
+.ancho_menu_home{width: 900px;}
+.ancho_menu_paginas{width:970px;}
+
+.menu:link{color:black; text-decoration: none;}
+.menu:visited{color:black; text-decoration: none;}
+.menu:hover{color:black; text-decoration: none;text-shadow: 0.0.30px white;}
+.menu:active{color:black; text-decoration: none;}
+
+/*seudo clases*/
+
